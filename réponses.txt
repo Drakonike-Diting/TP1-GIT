@@ -1,0 +1,18 @@
+1)
+
+"git status" regarde les commis dans la branche actuelle et fait un suivis sur un fichier qu'on auras choisi et donc dans notre cas il n'y y a rien car aucun fichier n'as était sélectionné .
+
+2)
+
+Il y écrit "nouveau fichier : README.md"
+
+3)
+Avec la commande "git add ." nous avons rajouté les fichiers courants dans le dossier actuelle .
+
+4)
+git commit -m "Création du premier commit"
+[develop (commit racine) 5f39413] Création du premier commit
+2 files changed, 1 insertion(+)
+create mode 100644 README.md
+
+5)
