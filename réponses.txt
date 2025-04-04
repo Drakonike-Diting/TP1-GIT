@@ -7,7 +7,7 @@
 Il y écrit "nouveau fichier : README.md"
 
 3)
-Avec la commande "git add ." nous avons rajouté les fichiers courants dans l'espaces develop.
+Avec la commande "git add ." nous avons rajouté les fichiers courants dans staging area.
 
 4)
 git commit -m "Création du premier commit"
