@@ -7,7 +7,7 @@
 Il y écrit "nouveau fichier : README.md"
 
 3)
-Avec la commande "git add ." nous avons rajouté les fichiers courants dans le dossier actuelle .
+Avec la commande "git add ." nous avons rajouté les fichiers courants dans l'espaces develop.
 
 4)
 git commit -m "Création du premier commit"
@@ -16,3 +16,57 @@ git commit -m "Création du premier commit"
 create mode 100644 README.md
 
 5)
+J'ai utilisé la commande "git log" .
+
+6)
+
+La différence entre "git diff" et "git diff --staged" est que l'un vérifie depuis le dossier actuelle et l'autre depuis le dernier commit .
+
+7)
+
+"git show" permet de voir les modification faîte, "git status" regarde les commis dans la branche actuelle et fait un suivis sur un fichier qu'on auras choisi , "git diff" permet de comparer entre 2 commit et "git log" permet de voir les différentes actions faîtes comme modifier , supprimer où ajouter un commit avec l'auteur de l'action , la date et le commentaire .
+
+9)
+
+"git reset" permet de retirer le suivis d'un fichier du commit develop .
+
+10)
+
+J'ai utilisé la commande "git diff --staged" et on peut voir que seul le fichier1 apparaît avec ces modifications donc on peut voir "+Fichier à garder".
+
+11)
+
+J'ai utilisé la commande "git show" voir le dernier commit ajouter , "git log" pour voir la liste des commits et "git status" pour voir les fichiers ajoutés .
+
+12)
+
+J'ai utilisé "git log" pour voir l'emplacement "origin/develop" car elle représente le dernier fichiers rajoutés dans le serveur distant .
+
+13)
+
+J'ai utilisé "git clone https://github.com/PaulineLam24/TP-Git.git" .
+
+14)
+
+Il a un fichier "README.md" dans le dossier cloner et avec la commande "git log" on peux voir les commits donc il y a :
+
+Correctif README.md
+
+Ajout dans README.md
+
+Initial commit
+
+15)
+
+Avec la commande "git diff" on peut voir les modifications faîtes entre chaque commit et voici les modifications:
+
++# TP-Git
++# Ceci est un fichier README.md...
+-# TP-Git
+
+-# Ceci est un fichier README.md...
++
++Ceci est un fichier README.md...
+
+
+
